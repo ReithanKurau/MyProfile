@@ -3,12 +3,12 @@
   background-size: cover;
   background-position: center;
   max-width: 100%;
-  height: 850px;
+  height: 1000px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid;
+  box-shadow: 0px 10px 10px rgb(78, 74, 74);
 }
 
 .banner img {
@@ -39,7 +39,6 @@
   align-items: center;
   height: 100%;
   flex-direction: column;
-  margin-top: 150px;
 }
 
 .vertical {
@@ -47,7 +46,7 @@
   font-family: "Zen Maru Gothic", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 100px;
+  font-size: 150px;
   border: solid;
   background-color: #C9CCD5;
 }
@@ -59,10 +58,31 @@
   font-size: 40px;
 }
 
+.dev-title {
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+.illust-title{
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.design-title{
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+}
 
 .about-box {
   background-color: #E0E0E0;
-  margin-top: 50%;
+  margin-top: 3%;
   padding: 10px;
   border: solid;
 

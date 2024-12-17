@@ -84,8 +84,9 @@
 
 .card-hello {
   display: flex;
-  position: relative;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
   height: 300px;
   width: 100%;
   max-width: 500px;
@@ -94,14 +95,12 @@
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   margin-top: 5%;
   margin-bottom: 5%;
-  align-items: center;
-  text-align: center;
 }
 
 .card-hello img {
   width: 100%;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 100% 520%;
   border-radius: 16px 16px 0 0;
   height: 30%;
   transition: height 1s ease;

@@ -1,22 +1,8 @@
-.banner{
-  position: relative;
+.banner {
   background-size: cover;
   background-position: center;
-  height: 1180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: visible;
-}
-
-.banner img {
-  position: relative;
-  width: 170%;
-  left: -32%;
-  height: 100%;
-  transform: scale(1.1);
-  z-index: -1;
-  object-fit: cover;
+  padding: 150px 0;
+  height: 1500px;
 }
 
 .title {
@@ -25,8 +11,10 @@
   align-items: center;
   height: 100%;
   flex-direction: column;
+  position: absolute;
   margin-top: 250px;
   z-index: 1;
+  margin-left: 3%;
 }
 
 .vertical {
@@ -47,17 +35,19 @@
 }
 
 .about-box {
-  background-color: #5a5e8a;
+  background-color: #C9CCD5;
   font-family: "Fira Sans Condensed", serif;
   font-weight: 200;
   font-style: normal;
   font-size: 20px;
   margin-left: 30px;
+  margin-top: 30%;
   border: solid;
   border-color: antiquewhite;
   padding: 20px;
-  border-radius: 1%;
+  border-radius: 10%;
   width: 350px;
+  min-width: 350px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -94,6 +84,7 @@
 
 .card-hello {
   display: flex;
+  position: relative;
   flex-direction: column;
   height: 300px;
   width: 100%;

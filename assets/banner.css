@@ -85,16 +85,23 @@
   font-family: "Fira Sans Condensed", serif;
   font-weight: 200;
   font-style: normal;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 30px;
   margin-top: 15%;
   padding: 20px;
   border: solid;
+  border-radius: 1%;
   width: 500px;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  i{
+    margin-bottom: 3%;
+    font-size: 30px;
+    margin-top: 2%;
+  }
 }
 
 .photo {
@@ -108,7 +115,7 @@
   margin: 0 auto;
 }
 
-/*Card Hello*/
+
 .card-hello {
   display: flex;
   flex-direction: column;
@@ -125,10 +132,8 @@
 }
 
 .card-hello img {
-  /*fixed*/
   width: 100%;
   object-fit: cover;
-  /*customizable*/
   object-position: 50% 50%;
   border-radius: 16px 16px 0 0;
   height: 30%;
@@ -136,26 +141,20 @@
 }
 
 .card-hello-info {
-  /*fixed*/
   overflow: hidden;
-  /*customizable*/
   padding: 16px;
 }
 
 .card-hello-info h2 {
-  /*customizable*/
   margin: 16px 0;
 }
 
-/* De-activate card hover style for tablet/mobiles */
 @media (min-width: 1100px) {
   .card-hello img:hover {
-    /*customizable*/
     height: 70%;
   }
 }
 
 .card-hello img.tapped {
-  /*customizable*/
   height: 70%;
 }

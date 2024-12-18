@@ -5,6 +5,21 @@
   height: 1500px;
 }
 
+
+.little-name {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #A6AEBF;
+  width: 150px;
+  height: 50px;
+  border: solid;
+}
+
 .vertical {
   display: flex;
   justify-content: center;
@@ -12,10 +27,12 @@
   font-family: "Zen Maru Gothic", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 200px;
+  font-size: 140px;
   background-color: #C9CCD5;
   margin-bottom: 3px;
   border: solid;
+  width: 150px;
+  height: 150px;
 }
 
 .reithan-title {

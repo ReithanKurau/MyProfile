@@ -6,24 +6,25 @@
 }
 
 .title {
-  color: #2C2E43;
+  color: #000000;
   display: flex;
   align-items: center;
   height: 100%;
   flex-direction: column;
   position: absolute;
-  margin-top: 250px;
   z-index: 1;
-  margin-left: 3%;
+  padding: 100px;
 }
 
+
 .vertical {
-  writing-mode: vertical-rl;
   font-family: "Zen Maru Gothic", serif;
   font-weight: 500;
   font-style: normal;
+  text-align: center;
   font-size: 150px;
-  border: solid;
+  width: 200px;
+  height: 200px;
   background-color: #C9CCD5;
 }
 
@@ -40,19 +41,17 @@
   font-weight: 200;
   font-style: normal;
   font-size: 20px;
-  margin-left: 30px;
-  margin-top: 30%;
   border: solid;
   border-color: antiquewhite;
   padding: 20px;
   border-radius: 10%;
-  width: 350px;
-  min-width: 350px;
+  width: 100%;
+  min-width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
-  z-index: 3;
+  margin-top: 5%;
 
   i{
     margin-bottom: 3%;

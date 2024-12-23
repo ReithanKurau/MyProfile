@@ -2,7 +2,7 @@
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  height: 1500px;
+  height: 1300px;
 }
 
 
@@ -43,15 +43,15 @@
 }
 
 .about-box {
-  background-color: #C9CCD5;
+  background-color: #65609e;
   font-family: "Fira Sans Condensed", serif;
   font-weight: 200;
   font-style: normal;
   font-size: 20px;
-  border: solid;
-  border-color: antiquewhite;
+  color: #F5F7F8;
+  border: 10px solid black;
   padding: 20px;
-  border-radius: 2%;
+  border-radius: 10%;
   width: 100%;
   min-width: 100%;
   text-align: center;
@@ -69,21 +69,23 @@
 }
 
 .links{
-  p{
+  a{
     display: inline;
     margin: 10px;
+    text-decoration: none;
+    color: white;
   }
 }
 
 .photo {
   width: 200px;
-  height: 300px;
+  height: 200px;
   border-radius: 30%;
   border: solid;
   border-color: #A6AEBF;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
+  margin-top: 6%;
   z-index: 4;
 }
 

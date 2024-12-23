@@ -1,0 +1,130 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 1300px;
+}
+
+
+.little-name {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #A6AEBF;
+  width: 150px;
+  height: 50px;
+  border: solid;
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 140px;
+  background-color: #C9CCD5;
+  margin-bottom: 3px;
+  border: solid;
+  width: 150px;
+  height: 150px;
+}
+
+.reithan-title {
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.about-box {
+  background-color: #65609e;
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  color: #F5F7F8;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 10%;
+  width: 100%;
+  min-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+
+  a{
+    margin-bottom: 3%;
+    font-size: 30px;
+    margin-top: 2%;
+  }
+
+}
+
+.links{
+  a{
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  border: solid;
+  border-color: #A6AEBF;
+  object-fit: cover;
+  display: block;
+  margin-top: 6%;
+  z-index: 4;
+}
+
+.card-hello {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card-hello img {
+  width: 30%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 16px 0 0 16px;
+  height: 200px;
+  transition: width 1s ease;
+}
+
+.card-hello-info {
+  overflow: hidden;
+  padding: 16px;
+}
+
+.card-hello-info h2 {
+  margin: 16px 0;
+}
+
+
+@media (min-width: 1100px) {
+  .card-hello img:hover {
+    width: 200px;
+  }
+}
+
+.card-hello img.tapped {
+  width: 300px;
+}
